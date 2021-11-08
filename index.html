@@ -12,19 +12,21 @@
         <h1>Il mio viaggio a Londra</h1>
     </header>
     <section>
-        <img src="img/pexels-bill-emrich-230794-0.jpg"></img>
-        <img src="img/pexels-bill-emrich-230794-1.jpg"></img>
-        <img src="img/pexels-bill-emrich-230794-2.jpg"></img>
+        <img src="img/pexels-bill-emrich-230794-0.jpg" alt="London landscape"></img>
+        <img src="img/pexels-bill-emrich-230794-1.jpg" alt="London landscape"></img>
+        <img src="img/pexels-bill-emrich-230794-2.jpg" alt="London landscape"></img>
     </section>
     <hr>
     <!-- Spese del viaggio -->
-    <section>
+    <section id="costs">
         <h2>Le mie spese</h2>
         <table>
             <thead>
+                <tr>
                 <th>Numero</th>
                 <th>Descrizione</th>
                 <th>Costo</th>
+                </tr>   
             </thead>
             <tbody>
                 <tr>
@@ -44,15 +46,17 @@
                 </tr>
             </tbody>
             <tfoot>
-                <td colspan="2">Totale</td>
-                <td>360€</td>
+                <tr>
+                  <td colspan="2">Totale</td>
+                  <td>360€</td>  
+                </tr>
+                
             </tfoot>
-
         </table>
     </section>
     <hr>
     <!-- Cose importanti da fare -->
-    <main>
+    <section id="to-do-list">            
         <h3>Cose da fare</h3>
         <ul>
             <li>Visitare la Tower of London&#10007;
@@ -64,38 +68,44 @@
             <li>Mangiare il tipico Fish and Chips inglese&#10007;
             </li>
         </ul>
-    </main>
+    </section>
     <hr>
-    <section>
+    <section id="info">
         <h3>Info utili:</h3>
         <ol>
             <!-- NUMERI DI EMERGENZA -->
-            <li>Numeri utili di emergenza</li>
-            <ul>
+            <li>Numeri utili di emergenza
+                <ul>
                 <li><b>999</b>- Emergenza</li>
                 <li><b>101</b>- Numero polizia</li>
                 <li><b>111</b>- Numero assistenza medica</li>
             </ul>
+            </li>
+            
             <!-- HOTEL -->
-            <li>Hotel</li>
-            <ul>
+            <li>Hotel
+                <ul>
                 <li><b>Nome Hotel:</b> Buckingham Palace</li>
                 <li><b>Indirizzo hotel:</b> Westminster,London SW1A1AA,Regno Unito</li>
             </ul>
+            </li>
+            
             <!-- AEREO -->
-            <li>Aereo</li>
-            <ul>
+            <li>Aereo
+                <ul>
                 <li><b>Volo di Andata:</b>YI1234X,ore 9.30 da Milano Malpensa</li>
                 <li><b>Volo di Ritorno:</b>YI1236X,ore 18.30 da London Heathrow</li>
             </ul>
+            </li>
+            
         </ol>
     </section>
     <hr>
     <!-- FOTO DI LONDRA -->
-    <section>
+    <section id="pics">
         <h3>Le foto</h3>
-        <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" >
-        <img src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg" >
+        <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="Pedestrian bridge">
+        <img src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg" alt="Covered market">
     </section>
 </body>
 </html>
